@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-white">
@@ -47,5 +48,91 @@
           </div>
         </div>
       </nav>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div class="c5">
+        <div class="carousel-inner">
+          <div class="carousel-item active c1" data-bs-interval="10000">
+            <img src="./img/1.jpg" class="d-block w-100 h-100 opacity-50" alt="...">
+            <div class="carousel-caption text-white text-start mb-5 ">
+              <h1 class="c4">Kerala's No.1 IT Finishing School <br>
+                100% Placement Assistance</h1><br>
+    
+              <div class="c6">
+                <p class="c2">We at LUMINAR TECHNOLAB offers best software training and placement in emerging
+                  technologies like BIG DATA, Data Science, Machine Learning, PYTHON, Software Testing.</p><br>
+    
+              </div> <button class="c3 text-white">VIEW COURSES</button>
+    
+    
+            </div>
+          </div>
+          <div class="carousel-item c1" data-bs-interval="2000">
+            <img src="./img/2.jpg" class="d-block w-100 h-100 opacity-50" alt="...">
+            <div class="carousel-caption text-white text-start mb-4">
+              <h1 class="c4">Data Science, ML & AI <br>Big Data - Hadoop & Spark <br>Python Data Science</h1><br>
+              <div class="c6">
+                <p class="c2 ">We LUMINAR TECHNOLAB offers best software training and placement in emerging technologies
+                  like
+                  Big Data,Hadoop, Spark, Data Science, Machine Learning, Deep Learning and AI.</p><br>
+    
+              </div> <button class="c3  text-white">VIEW COURSES</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary c7 m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Get Training Quote For Free
+      </button>
+    
+      <!-- Modal -->
+      <div class="modal fade p-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div>
+                <form action="" class=" border-0 container">
+                  <button type="button" class="btn-close ms-auto d-block" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                  <h3 class="text-dark m-2">Get Training Quote For Free</h3>
+                  <input class="form-control border-0 mt-3" type="text" placeholder="Name">
+                  <hr>
+                  <input class="form-control border-0" type="email" placeholder="Email">
+                  <hr>
+                  <input class="form-control border-0" type="tel" name="" placeholder="Phone Number">
+                  <hr>
+                  <select class="form-select border-0" name="" id="">
+                    <option value="">Select Course interested in</option>
+                  </select>
+                  <hr>
+                  <input class="form-control border-0" type="text" name="" placeholder="City">
+                  <hr>
+                  <textarea class="form-control border-0" name="" cols="50" rows="4" placeholder="Comments"></textarea>
+                  <hr>
+                  <br><button class=" mt-2 text-white c9 text-start">Submit</button>
+    
+              </div>
+              </form>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
 </body>
 </html>
