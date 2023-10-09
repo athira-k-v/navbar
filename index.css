@@ -18,19 +18,142 @@
     margin-left: -80px;
 }
 .c6{
-    width: 600px;
+    width:600px;
 }
 .c7{
     border-radius: 40px;
     background-color: blueviolet;
     border: none;
     padding: 15px 25px;
+    
 }
 .c9{
     background-color: blueviolet;
     border: none;
     padding: 10px 70px;
 }
+
+
+
+
+
+
+.l1{
+    padding: 90px;
+    
+}
+.h1{
+    color: rgb(70, 17, 119);
+    font-size: 50px;
+    
+}
+h5{
+    color: blueviolet;
+}
+.b1{
+    color: white;
+    background-color: rgb(92, 12, 167);
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.l2{
+   margin-top:-10px;
+}
+
+
+.d1{
+    width: 90%;
+    
+}
+.d2{
+    padding-left: 90px;
+    height: 100%;
+        width: 100%;
+}
+.h2{
+    color: rgb(90, 21, 155);
+}
+.i2{
+    padding-bottom: 20px;
+    color: black;
+}
+.i3{
+    padding-bottom:20px;
+    color: black;
+}
+.i4{
+    color: black;
+}
+span{
+    color: black;
+}
+a{
+    color: rgb(105, 33, 172);
+}
+h2{
+    color: rgb(85, 10, 155);
+    padding-top: 30px;
+    
+}
+.s1{
+    color: blueviolet;
+
+}
+.b1{
+
+    border: 20px;
+    background-color:rgb(160, 42, 184) ;
+}
+.p1{
+    font-size:20px ;
+}
+
+.p2{
+    font-size: 20px;
+}
+h4{
+    font-size: 35px;
+    color: rgb(85, 14, 152);
+}
+.i1{
+    height: 100%;
+    width: 100%;
+}
+.d1:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 10px rgb(6, 6, 6);
+}
+.o1{
+    color: white;
+}
+.k2{
+    background-color: blueviolet;
+    
+}
+.n1:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 10px rgb(6, 6, 6);
+}
+.t1{
+    overflow: hidden;
+}
+.t2{
+    padding: 20px;
+    color: darkviolet;
+    border: 2px purple solid;
+    border-radius: 35px;
+}
+.v1{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.v3{
+    
+
+}
+
+
 
 
 @media (max-width:700px){
@@ -42,15 +165,61 @@
         padding: 10px 15px;
     }
     .c4{
-        font-size: 15px;
+        font-size: 20px;
         margin-left: -20px;
     }
     .c2{
-        font-size: 15px;
+        font-size: 5px;
         margin-left: -20px;
     }
     .c6{
         width:auto;
     }
+
+
+
+    .l1{
+        padding: 30px;
+    }
+    .l2{
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    .i1{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    
+    body,html{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .t2{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .v2,.v3{
+        padding: 2%;
+        width: 100%;
+        text-align: center;
+    }
+    .z1{
+        display: none;
+    }
+
+    
+
+    
+    }
    
-}
+
