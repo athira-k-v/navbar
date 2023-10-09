@@ -139,8 +139,8 @@ h4{
 }
 .t2{
     padding: 20px;
-    color: darkviolet;
-    border: 2px purple solid;
+    color: rgb(158, 26, 215);
+    border: 2px rgb(124, 3, 124) solid;
     border-radius: 35px;
 }
 .v1{
@@ -148,10 +148,7 @@ h4{
   position: sticky;
   top: 0;
 }
-.v3{
-    
 
-}
 
 
 
