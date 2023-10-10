@@ -127,7 +127,7 @@ h4{
     color: white;
 }
 .k2{
-    background-color: blueviolet;
+    background-color: rgb(77, 20, 130);
     
 }
 .n1:hover{
@@ -148,6 +148,19 @@ h4{
   position: sticky;
   top: 0;
 }
+
+.li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+
+
+.border1{
+    border-left: solid 2px black;
+}
+
 
 
 
@@ -213,10 +226,15 @@ h4{
     .z1{
         display: none;
     }
-
-    
-
-    
-    }
    
+    .kl1{
+        padding-left: 0p;
+    }
+    
+    
+}
+    
+
+    
+    
 
